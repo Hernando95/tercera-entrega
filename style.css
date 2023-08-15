@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ctn-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.nav-link{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: rgb(255, 253, 253);
+    border-radius: 7px;
+    width: 7rem;
+    text-align: center;
+ 
+    margin:1rem;
+
+}
+
+.nav-link:hover{
+    background-color: yellow;
+    color: black;
+    transition:  all ease 0.8s;
+
+}
+
+.ctnr-pstcn{
+    width: 100%;
+    position: relative;
+}
+
+.img-presentation{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.title{
+    position: absolute;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    top: 50%;
+    text-align: center;
+    color:rgb(30, 247, 11)
+    
+
+}
+.crtr-especial{
+    color: rgb(248, 9, 100);
+    text-transform: uppercase;
+}
+    

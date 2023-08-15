@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ctn-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.nav-link{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: rgb(255, 253, 253);
+    border-radius: 7px;
+    width: 7rem;
+    text-align: center;
+ 
+    margin:1rem;
+
+}
+
+.nav-link:hover{
+    background-color: yellow;
+    color: black;
+    transition:  all ease 0.8s;
+
+}
+
+.ctn-form{
+    margin-top: 7rem;
+    margin-left: 10%;
+
+}
+
+.name{
+    width: 50%;
+}
+
+.lastName{
+    width: 50%;
+}
+.phon{
+    width: 50%;
+
+}
+
+.comentario{
+    width: 70%;
+}
